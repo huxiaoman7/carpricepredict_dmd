@@ -1,8 +1,4 @@
 # DMD项目报告——《汽车价格预测及影响因素分析研究》
-
-> Tsinghua DMD group work: Using different method of DMD to solve a real-world problem
-
-
 ## 一、项目总结
 ### （一）简要问题描述
 2017年，吉利汽车计划美国市场，当时面临着两个关键问题：
