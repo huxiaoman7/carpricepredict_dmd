@@ -4,7 +4,7 @@ def binary_dummy_replace(x) :
                    "two":1, "four":0,
                    "front": 1, "rear": 0})
 def dummies(x,df):  
-    temp = pd.get_dummies(df[x], prefix=x, drop_first = True)
+    temp = pd.get_dummies(df[x], prefix=x, drop_first = True,dtype=float)
     df = pd.concat([df, temp], axis = 1)
     df.drop([x], axis = 1, inplace = True)
     return df
