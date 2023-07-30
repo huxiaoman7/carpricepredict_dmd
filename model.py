@@ -1,3 +1,9 @@
+i#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 30/7/2023
+# @Author  : huxiaoman
+# @File    : model.py
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler,scale
 cars_train, cars_test= train_test_split(data, train_size=0.67, test_size=0.33, random_state = 0)
