@@ -1,8 +1,3 @@
-fueltype {" gas ": 1, " diesel ": 0}
-suction {" std ": 1, " turbo ": 0}
-doornumber {" two ": 1, " oven ": 0}
-enginelocation {" front ": 1, " rear ": 0}
-
 def binary_dummy_replace(x) :
      return x.map({"gas":1,"diesel":0,
                    "std":1,"turbo":0,
