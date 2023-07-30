@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 30/7/2023
+# @Author  : huxiaoman
+# @File    : analysis.py
+
 import scipy
 from scipy.stats.stats import pearsonr
 
