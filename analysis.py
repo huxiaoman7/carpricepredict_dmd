@@ -268,3 +268,9 @@ sns.countplot(x='symboling', data=data, order=order)
 
 plt.show()
 
+
+##删除相关性高的数据
+data = data.drop(['carheight' ,'stroke' ,'compressionratio' ,'peakrpm' ,'carlength' ,'carwidth' ,'curbweight' ,'enginesize' ,'highwaympg'], axis=1)
+data.head()
+data
+
