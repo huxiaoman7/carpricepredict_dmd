@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 30/7/2023
+# @Author  : huxiaoman
+# @File    : dummy.py
+
 def binary_dummy_replace(x) :
      return x.map({"gas":1,"diesel":0,
                    "std":1,"turbo":0,
